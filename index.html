@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的语言学习</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <h1 id="appName">语言学习</h1>
+      <div class="header-right">
+        <div class="lang-switch">
+          <button id="langBtn">🌐 <span id="langName">英语</span> ▾</button>
+          <div id="langMenu" class="lang-menu" style="display:none"></div>
+        </div>
+        <div class="theme-switch">
+          <button id="themeBtn">🎨 <span id="themeName">简洁</span> ▾</button>
+          <div id="themeMenu" class="theme-menu" style="display:none"></div>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <button data-view="words">单词</button>
+      <button data-view="grammar">语法</button>
+      <button data-view="alphabet">字母表</button>
+      <button data-view="phrases">短语</button>
+      <button data-view="quiz">测验</button>
+      <button data-view="wrongbook">错题本</button>
+      <button data-view="favorites">收藏</button>
+      <button data-view="stats">统计</button>
+      <button data-view="settings">设置</button>
+    </nav>
+    <div class="status-bar" id="ttsStatus">发音引擎：加载中…</div>
+  </header>
+  <main id="app"></main>
+
+  <script src="data/config.js"></script>
+  <script src="data/themes.js"></script>
+  <script src="js/loader.js"></script>
+  <script src="js/espeak.js"></script>
+  <script src="js/tts.js"></script>
+  <script src="js/canvas.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/annotation.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+window.THEMES = [
+  {
+    code: "simple",
+    name: "简洁",
+    vars: {
+      "--bg":           "#f5f6f8",
+      "--surface":      "#ffffff",
+      "--surface-2":    "#fafafa",
+      "--text":         "#222222",
+      "--text-muted":   "#888888",
+      "--border":       "#e0e0e0",
+      "--primary":      "#4a90e2",
+      "--primary-text": "#ffffff",
+      "--accent":       "#eef2f7",
+      "--shadow":       "rgba(0,0,0,.06)",
+      "--pad-bg":       "#ffffff",
+      "--pad-stroke":   "#333333",
+      "--pad-stroke-auto": "0",
+      "--ghost":        "#e0e0e0",
+
+      "--status-familiar":       "#4CAF50",
+      "--status-familiar-text":  "#ffffff",
+      "--status-vague":          "#FFC107",
+      "--status-vague-text":     "#222222",
+      "--status-unknown":        "#F44336",
+      "--status-unknown-text":   "#ffffff",
+      "--status-default":        "#E0E0E0",
+      "--status-default-text":   "#333333"
+    }
+  },
+  {
+    code: "bamboo",
+    name: "竹韵",
+    vars: {
+      "--bg":           "#eef6ec",
+      "--surface":      "#ffffff",
+      "--surface-2":    "#f3faf1",
+      "--text":         "#2c3e2c",
+      "--text-muted":   "#6b8a6b",
+      "--border":       "#cfe3cc",
+      "--primary":      "#5a9e5a",
+      "--primary-text": "#ffffff",
+      "--accent":       "#e2f2df",
+      "--shadow":       "rgba(60,100,60,.08)",
+      "--pad-bg":       "#ffffff",
+      "--pad-stroke":   "#2c3e2c",
+      "--pad-stroke-auto": "0",
+      "--ghost":        "#cfe3cc",
+
+      "--status-familiar":       "#7cb342",
+      "--status-familiar-text":  "#ffffff",
+      "--status-vague":          "#c0ca33",
+      "--status-vague-text":     "#2c3e2c",
+      "--status-unknown":        "#e57373",
+      "--status-unknown-text":   "#ffffff",
+      "--status-default":        "#dcedc8",
+      "--status-default-text":   "#2c3e2c"
+    }
+  },
+  {
+    code: "ancient",
+    name: "古风",
+    vars: {
+      "--bg":           "#f5efe1",
+      "--surface":      "#fbf6e9",
+      "--surface-2":    "#f0e8d5",
+      "--text":         "#3a2a1a",
+      "--text-muted":   "#8a7250",
+      "--border":       "#d9c8a3",
+      "--primary":      "#b22222",
+      "--primary-text": "#fbf6e9",
+      "--accent":       "#ead9b0",
+      "--shadow":       "rgba(80,60,30,.1)",
+      "--pad-bg":       "#fbf6e9",
+      "--pad-stroke":   "#3a2a1a",
+      "--pad-stroke-auto": "0",
+      "--ghost":        "#d9c8a3",
+
+      "--status-familiar":       "#558b2f",
+      "--status-familiar-text":  "#fbf6e9",
+      "--status-vague":          "#c9a227",
+      "--status-vague-text":     "#3a2a1a",
+      "--status-unknown":        "#b22222",
+      "--status-unknown-text":   "#fbf6e9",
+      "--status-default":        "#e8dcc0",
+      "--status-default-text":   "#3a2a1a"
+    }
+  },
+  {
+    code: "moon",
+    name: "月下",
+    vars: {
+      "--bg":           "#141726",
+      "--surface":      "#1e2238",
+      "--surface-2":    "#252a44",
+      "--text":         "#d8dcf0",
+      "--text-muted":   "#8891b8",
+      "--border":       "#2f3556",
+      "--primary":      "#8a7cff",
+      "--primary-text": "#ffffff",
+      "--accent":       "#2a3050",
+      "--shadow":       "rgba(0,0,0,.5)",
+      "--pad-bg":       "#1e2238",
+      "--pad-stroke":   "#d8dcf0",
+      "--pad-stroke-auto": "0",
+      "--ghost":        "#3a4168",
+
+      "--status-familiar":       "#2e7d5a",
+      "--status-familiar-text":  "#d8dcf0",
+      "--status-vague":          "#b8860b",
+      "--status-vague-text":     "#d8dcf0",
+      "--status-unknown":        "#9c2b2b",
+      "--status-unknown-text":   "#d8dcf0",
+      "--status-default":        "#3a4168",
+      "--status-default-text":   "#8891b8"
+    }
+  },
+  {
+    code: "neon",
+    name: "霓虹",
+    vars: {
+      "--bg":           "#0a0a12",
+      "--surface":      "#14141f",
+      "--surface-2":    "#1a1a28",
+      "--text":         "#e0f7ff",
+      "--text-muted":   "#7a7a99",
+      "--border":       "#2a2a44",
+      "--primary":      "#ff2e97",
+      "--primary-text": "#ffffff",
+      "--accent":       "#1e1e30",
+      "--shadow":       "rgba(255,46,151,.2)",
+      "--pad-bg":       "#14141f",
+      "--pad-stroke":   "#00f0ff",
+      "--pad-stroke-auto": "0",
+      "--ghost":        "#2a2a44",
+
+      "--status-familiar":       "#00ff9d",
+      "--status-familiar-text":  "#0a0a12",
+      "--status-vague":          "#ffea00",
+      "--status-vague-text":     "#0a0a12",
+      "--status-unknown":        "#ff2e97",
+      "--status-unknown-text":   "#0a0a12",
+      "--status-default":        "#2a2a44",
+      "--status-default-text":   "#7a7a99"
+    }
+  }
+];
